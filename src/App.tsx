@@ -27,10 +27,10 @@ function App() {
       }}
       templateColumns={{
         base: "1rf",
-        lg: "200px 1fr",
+        lg: "18em 1fr",
       }}
     >
-      <GridItem area="nav" px="1em">
+      <GridItem area="nav" px="1em" pt="1em">
         <NavBar
           onSearch={(searchText) => setGameQuery({ ...gameQuery, searchText })}
         />
